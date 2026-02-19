@@ -1,0 +1,87 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MyPortfolio</string>
+    <string name="app_name_display">My Portfolio</string>
+
+    <!-- Splash Screen -->
+    <string name="app_logo">App Logo</string>
+    <string name="welcome_message">Showcasing My Journey\nand Achievements</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="demo_credentials">Demo: student / 1234</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_user">Welcome!</string>
+    <string name="logout">Logout</string>
+    <string name="about_me">About Me</string>
+    <string name="skills">Skills</string>
+    <string name="projects">Projects</string>
+
+    <!-- About & Skills -->
+    <string name="profile_image">Profile Image</string>
+    <string name="student_name">Deekshitha.N</string>
+    <string name="student_role">Computer Science Student</string>
+    <string name="about_description">I am a passionate Computer Science student with a keen interest in mobile app development and software engineering. I love building applications that solve real-world problems and enhance user experiences. Currently pursuing my degree and actively seeking opportunities to apply my skills in innovative projects.</string>
+
+    <!-- Education -->
+    <string name="education">Education</string>
+    <string name="education_degree">Bachelor of Computer Application</string>
+    <string name="education_university">Mount Carmel College,Bengaluru</string>
+    <string name="education_year">2022 - 2026 (Expected)</string>
+
+    <!-- Interests -->
+    <string name="interests">Interests &amp; Hobbies</string>
+    <string name="interests_description">Mobile App Development • Open Source Contribution • UI/UX Design • Problem Solving • Competitive Programming • Tech Blogging</string>
+
+    <!-- Skills Page -->
+    <string name="my_skills">My Technical Skills</string>
+    <string name="technical_skills">Technical Skills</string>
+
+    <string name="programming_languages">Programming Languages</string>
+    <string name="skill_prog_1">• Java - Advanced (OOP, Collections, Multithreading)</string>
+    <string name="skill_prog_2">• Python - Intermediate (Data Structures, Automation)</string>
+    <string name="skill_prog_3">• C++ - Intermediate (Algorithms, Problem Solving)</string>
+
+    <string name="android_development">Android Development</string>
+    <string name="skill_android_1">• Android SDK &amp; Android Studio</string>
+    <string name="skill_android_2">• Activities, Fragments, Intents</string>
+    <string name="skill_android_3">• XML Layouts &amp; Material Design</string>
+
+    <string name="database_tools">Database &amp; Tools</string>
+    <string name="skill_db_1">• SQLite &amp; Room Database</string>
+    <string name="skill_db_2">• MySQL &amp; Firebase</string>
+    <string name="skill_db_3">• Git &amp; GitHub Version Control</string>
+
+    <string name="other_skills">Other Skills</string>
+    <string name="skill_other_1">• REST API Integration</string>
+    <string name="skill_other_2">• Data Structures &amp; Algorithms</string>
+    <string name="skill_other_3">• UI/UX Design Principles</string>
+
+    <!-- Old skills (can be removed) -->
+    <string name="skill_1">• Java Programming &amp; Object-Oriented Design</string>
+    <string name="skill_2">• Android Development (Java/XML)</string>
+    <string name="skill_3">• Data Structures &amp; Algorithms</string>
+    <string name="skill_4">• Database Management (SQL, SQLite)</string>
+    <string name="skill_5">• UI/UX Design Principles</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+
+    <!-- Projects & Contact -->
+    <string name="my_projects">My Projects</string>
+    <string name="project_1_title">1. Portfolio Mobile App</string>
+    <string name="project_1_desc">An Android application demonstrating multi-activity navigation, intent handling, and modern UI design patterns using Java and XML layouts.</string>
+    <string name="project_2_title">2. Task Management System</string>
+    <string name="project_2_desc">A complete task tracking application with SQLite database integration, featuring CRUD operations and material design components.</string>
+    <string name="project_3_title">3. Weather Forecast App</string>
+    <string name="project_3_desc">Real-time weather application consuming REST APIs, displaying current conditions and 5-day forecasts with dynamic UI updates.</string>
+
+    <string name="contact_me">Contact Me</string>
+    <string name="contact_email">📧 Email: 12deekshitha@gmail.com</string>
+    <string name="contact_phone">📱 Phone: 6363064367</string>
+    <string name="contact_linkedin">💼 LinkedIn: https://www.linkedin.com/in/deekshitha-n-530717316/ </string>
+    <string name="contact_github">💻 GitHub: https://github.com/Deeksha765</string>
+</resources>

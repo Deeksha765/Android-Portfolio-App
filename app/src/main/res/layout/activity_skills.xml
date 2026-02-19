@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Page Title -->
+        <TextView
+            android:id="@+id/tvPageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="@string/my_skills"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary" />
+
+        <!-- Programming Languages Section -->
+        <TextView
+            android:id="@+id/tvProgrammingHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPageTitle"
+            android:layout_marginTop="32dp"
+            android:text="@string/programming_languages"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/programmingContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProgrammingHeading"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_prog_1"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_prog_2"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_prog_3"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!-- Android Development Section -->
+        <TextView
+            android:id="@+id/tvAndroidHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/programmingContainer"
+            android:layout_marginTop="24dp"
+            android:text="@string/android_development"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/androidContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAndroidHeading"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_android_1"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_android_2"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_android_3"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!-- Database & Tools Section -->
+        <TextView
+            android:id="@+id/tvToolsHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/androidContainer"
+            android:layout_marginTop="24dp"
+            android:text="@string/database_tools"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/toolsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvToolsHeading"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_db_1"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_db_2"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_db_3"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!-- Other Skills Section -->
+        <TextView
+            android:id="@+id/tvOtherHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolsContainer"
+            android:layout_marginTop="24dp"
+            android:text="@string/other_skills"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/otherContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOtherHeading"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_other_1"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_other_2"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/skill_other_3"
+                android:textSize="15sp"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otherContainer"
+            android:layout_marginTop="32dp"
+            android:text="@string/back_to_dashboard"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

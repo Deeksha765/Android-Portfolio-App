@@ -1,0 +1,53 @@
+package com.example.myportfolio1;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+import androidx.activity.OnBackPressedCallback;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SkillsActivity extends AppCompatActivity {
+
+    private Button btnBack;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_skills);
+
+        // Enable back button in action bar
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setTitle("My Skills");
+        }
+
+        // Initialize back button
+        btnBack = findViewById(R.id.btnBack);
+
+        // Set click listener to navigate back to Dashboard
+        btnBack.setOnClickListener(v -> navigateBackToDashboard());
+
+        // Handle device back button using OnBackPressedDispatcher (modern approach)
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                navigateBackToDashboard();
+            }
+        });
+    }
+
+    private void navigateBackToDashboard() {
+        // Navigate back to Dashboard using explicit intent
+        Intent intent = new Intent(SkillsActivity.this, DashboardActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        // Handle action bar back button
+        navigateBackToDashboard();
+        return true;
+    }
+}
